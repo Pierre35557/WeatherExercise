@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XGbb2cbYEiwRWH3Fjn4jSE+yVWRm4MRiMHvL5eAwrAsiwNwzeJaGuYIaCGA1+739ICOMVH31iuJmeSeHPOXKmg==",
+  "success": true,
+  "projectFilePath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\georg\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\stoneage.cleanarchitecture.domain.dotnetcore\\4.0.6\\stoneage.cleanarchitecture.domain.dotnetcore.4.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
