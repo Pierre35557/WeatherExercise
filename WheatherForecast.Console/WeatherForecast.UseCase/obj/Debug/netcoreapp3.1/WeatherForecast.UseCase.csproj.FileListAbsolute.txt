@@ -1,8 +1,12 @@
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.UseCase.deps.json
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.UseCase.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.UseCase.pdb
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.csproj.CoreCompileInputs.cache
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.AssemblyInfoInputs.cache
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.AssemblyInfo.cs
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.UseCase.deps.json
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.UseCase.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.UseCase.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.Domain.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\bin\Debug\netcoreapp3.1\WeatherForecast.Domain.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.csproj.CopyComplete
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.UseCase\obj\Debug\netcoreapp3.1\WeatherForecast.UseCase.csprojAssemblyReference.cache

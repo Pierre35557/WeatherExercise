@@ -1,12 +1,13 @@
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Data.deps.json
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Data.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Data.pdb
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.csprojAssemblyReference.cache
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.csproj.CoreCompileInputs.cache
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.AssemblyInfoInputs.cache
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.AssemblyInfo.cs
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Data.deps.json
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Data.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Domain.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Domain.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.csproj.CopyComplete
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForecast.Data.pdb
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.pdb
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.csproj.CoreCompileInputs.cache
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForcast.Domain.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\WeatherForcast.Domain.pdb
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\obj\Debug\netcoreapp3.1\WeatherForecast.Data.csproj.CopyComplete
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Data\bin\Debug\netcoreapp3.1\External Files\city.list.json

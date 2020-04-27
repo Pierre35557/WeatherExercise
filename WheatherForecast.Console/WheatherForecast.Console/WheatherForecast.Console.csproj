@@ -9,4 +9,10 @@
     <PackageReference Include="AutoMapper" Version="9.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherForcast.Domain\WeatherForecast.Domain.csproj" />
+    <ProjectReference Include="..\WeatherForecast.Data\WeatherForecast.Data.csproj" />
+    <ProjectReference Include="..\WeatherForecast.UseCase\WeatherForecast.UseCase.csproj" />
+  </ItemGroup>
+
 </Project>

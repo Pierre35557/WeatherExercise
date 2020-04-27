@@ -4,6 +4,194 @@
     "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WheatherForecast.Console\\WheatherForecast.Console.csproj": {}
   },
   "projects": {
+    "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj",
+        "projectName": "WeatherForecast.Domain",
+        "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "StoneAge.CleanArchitecture.Domain.DotNetCore": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj",
+        "projectName": "WeatherForecast.Data",
+        "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
+                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\WeatherForecast.UseCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\WeatherForecast.UseCase.csproj",
+        "projectName": "WeatherForecast.UseCase",
+        "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\WeatherForecast.UseCase.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
+                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WheatherForecast.Console\\WheatherForecast.Console.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +214,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
+                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj"
+              },
+              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj": {
+                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj"
+              },
+              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\WeatherForecast.UseCase.csproj": {
+                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\WeatherForecast.UseCase.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

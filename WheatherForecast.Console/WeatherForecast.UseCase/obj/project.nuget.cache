@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ggCzkhZqRhgfdINuo6pJRp5vssC/pdBjgd2+yTJ/RefN0JLsYAKzbXqhSpyeiKAgjbJkB5HDBCCriWlgde86/Q==",
+  "dgSpecHash": "rAqS7q+khu8z0bT9sMSsc8cU2NSDRuhvzjbP+PtXws5fSnIr1oGgW7u9SXcXhiLfatno+ldGtnuKwRbAIz/pog==",
   "success": true,
   "projectFilePath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.UseCase\\WeatherForecast.UseCase.csproj",
   "expectedPackageFiles": [

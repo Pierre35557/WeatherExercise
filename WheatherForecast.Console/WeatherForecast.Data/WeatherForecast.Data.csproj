@@ -5,11 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WeatherForcast.Domain\WeatherForcast.Domain.csproj" />
+    <ProjectReference Include="..\WeatherForcast.Domain\WeatherForecast.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="External Files\city.list.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

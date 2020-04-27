@@ -8,15 +8,28 @@
     ".NETCoreApp,Version=v3.1": {
       "WeatherForecast.Test/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.NET.Test.Sdk": "16.4.0",
           "NUnit3TestAdapter": "3.15.1",
-          "WeatherForcast.Domain": "1.0.0",
           "WeatherForecast.Data": "1.0.0",
+          "WeatherForecast.Domain": "1.0.0",
           "NUnit": "3.12.0"
         },
         "runtime": {
           "WeatherForecast.Test.dll": {}
+        }
+      },
+      "AutoMapper/9.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
@@ -39,6 +52,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.DotNet.InternalAbstractions/1.0.0": {
         "dependencies": {
           "System.AppContext": "4.1.0",
@@ -393,6 +407,17 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
+      "StoneAge.CleanArchitecture.Domain.DotNetCore/4.0.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/StoneAge.CleanArchitecture.Domain.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.0.6.0"
+          }
+        }
+      },
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -554,6 +579,22 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
         }
@@ -746,21 +787,24 @@
           }
         }
       },
-      "WeatherForcast.Domain/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "WeatherForcast.Domain.dll": {}
-        }
-      },
       "WeatherForecast.Data/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Newtonsoft.Json": "12.0.3",
-          "WeatherForcast.Domain": "1.0.0"
+          "WeatherForecast.Domain": "1.0.0"
         },
         "runtime": {
           "WeatherForecast.Data.dll": {}
+        }
+      },
+      "WeatherForecast.Domain/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "StoneAge.CleanArchitecture.Domain.DotNetCore": "4.0.6"
+        },
+        "runtime": {
+          "WeatherForecast.Domain.dll": {}
         }
       }
     }
@@ -770,6 +814,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "type": "package",
@@ -784,6 +835,13 @@
       "sha512": "sha512-qb7PMVZMAY5iUCvB/kDUEt9xqazWKZoKY/sGpAJO4VtwgN5IcEgipCu3n0i1GPCwGbWVL6k4a8a9F+FqmADJng==",
       "path": "microsoft.codecoverage/16.4.0",
       "hashPath": "microsoft.codecoverage.16.4.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
     "Microsoft.DotNet.InternalAbstractions/1.0.0": {
       "type": "package",
@@ -889,6 +947,13 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "StoneAge.CleanArchitecture.Domain.DotNetCore/4.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p3KQhaxNmXRAfqufb9CULaKYGf8SwJErwtrN1T/464ToB7n8jf2TAMI67zBTmEZGhNH7IwxQ7PDbeekY9ayATw==",
+      "path": "stoneage.cleanarchitecture.domain.dotnetcore/4.0.6",
+      "hashPath": "stoneage.cleanarchitecture.domain.dotnetcore.4.0.6.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
@@ -1008,6 +1073,20 @@
       "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
     },
     "System.Reflection.Extensions/4.3.0": {
       "type": "package",
@@ -1156,12 +1235,12 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "WeatherForcast.Domain/1.0.0": {
+    "WeatherForecast.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "WeatherForecast.Data/1.0.0": {
+    "WeatherForecast.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

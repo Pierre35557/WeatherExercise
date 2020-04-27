@@ -4,12 +4,12 @@
     "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForecast.Data\\WeatherForecast.Data.csproj": {}
   },
   "projects": {
-    "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj": {
+    "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj",
-        "projectName": "WeatherForcast.Domain",
-        "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj",
+        "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj",
+        "projectName": "WeatherForecast.Domain",
+        "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
         "outputPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -89,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj": {
-                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj"
+              "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
+                "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj"
               }
             }
           }
@@ -104,6 +104,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"

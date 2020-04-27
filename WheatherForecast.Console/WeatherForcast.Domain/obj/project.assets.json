@@ -82,9 +82,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj",
-      "projectName": "WeatherForcast.Domain",
-      "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj",
+      "projectUniqueName": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj",
+      "projectName": "WeatherForecast.Domain",
+      "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj",
       "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
       "outputPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\obj\\",
       "projectStyle": "PackageReference",

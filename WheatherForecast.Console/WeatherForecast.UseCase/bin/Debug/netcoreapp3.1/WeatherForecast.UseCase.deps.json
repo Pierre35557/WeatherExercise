@@ -7,14 +7,64 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "WeatherForecast.UseCase/1.0.0": {
+        "dependencies": {
+          "WeatherForecast.Domain": "1.0.0"
+        },
         "runtime": {
           "WeatherForecast.UseCase.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "StoneAge.CleanArchitecture.Domain.DotNetCore/4.0.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/StoneAge.CleanArchitecture.Domain.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.0.6.0"
+          }
+        }
+      },
+      "WeatherForecast.Domain/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "StoneAge.CleanArchitecture.Domain.DotNetCore": "4.0.6"
+        },
+        "runtime": {
+          "WeatherForecast.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WeatherForecast.UseCase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "StoneAge.CleanArchitecture.Domain.DotNetCore/4.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p3KQhaxNmXRAfqufb9CULaKYGf8SwJErwtrN1T/464ToB7n8jf2TAMI67zBTmEZGhNH7IwxQ7PDbeekY9ayATw==",
+      "path": "stoneage.cleanarchitecture.domain.dotnetcore/4.0.6",
+      "hashPath": "stoneage.cleanarchitecture.domain.dotnetcore.4.0.6.nupkg.sha512"
+    },
+    "WeatherForecast.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

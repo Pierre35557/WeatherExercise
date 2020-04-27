@@ -23,7 +23,7 @@
           "lib/netcoreapp2.1/StoneAge.CleanArchitecture.Domain.dll": {}
         }
       },
-      "WeatherForcast.Domain/1.0.0": {
+      "WeatherForecast.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -31,10 +31,10 @@
           "StoneAge.CleanArchitecture.Domain.DotNetCore": "4.0.6"
         },
         "compile": {
-          "bin/placeholder/WeatherForcast.Domain.dll": {}
+          "bin/placeholder/WeatherForecast.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WeatherForcast.Domain.dll": {}
+          "bin/placeholder/WeatherForecast.Domain.dll": {}
         }
       }
     }
@@ -83,15 +83,15 @@
         "stoneage.cleanarchitecture.domain.dotnetcore.nuspec"
       ]
     },
-    "WeatherForcast.Domain/1.0.0": {
+    "WeatherForecast.Domain/1.0.0": {
       "type": "project",
-      "path": "../WeatherForcast.Domain/WeatherForcast.Domain.csproj",
-      "msbuildProject": "../WeatherForcast.Domain/WeatherForcast.Domain.csproj"
+      "path": "../WeatherForcast.Domain/WeatherForecast.Domain.csproj",
+      "msbuildProject": "../WeatherForcast.Domain/WeatherForecast.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "WeatherForcast.Domain >= 1.0.0"
+      "WeatherForecast.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -120,8 +120,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj": {
-              "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForcast.Domain.csproj"
+            "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj": {
+              "projectPath": "C:\\Git Projects\\WeatherExercise\\WheatherForecast.Console\\WeatherForcast.Domain\\WeatherForecast.Domain.csproj"
             }
           }
         }

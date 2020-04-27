@@ -1,7 +1,6 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace WeatherForcast.Domain
+namespace WeatherForecast.Domain
 {
     public class CurrentWeather
     {
@@ -10,9 +9,8 @@ namespace WeatherForcast.Domain
 
         public Wind Wind { get; set; }
 
-        [JsonProperty("coord")]
         public Coordination Coordination { get; set; }
 
-        public List<Weather> Weather { get; set; }
+        public IEnumerable<Weather> Weather { get; set; }
     }
 }

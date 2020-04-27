@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace WeatherForcast.Domain
+﻿namespace WeatherForecast.Domain
 {
     public class Main
     {
@@ -8,13 +6,8 @@ namespace WeatherForcast.Domain
         public float Humidity { get; set; }
         public float Pressure { get; set; }
 
-        [JsonProperty("feels_like")]
         public float FeelsLike { get; set; }
-
-        [JsonProperty("temp_min")]
         public float MinTemprature { get; set; }
-
-        [JsonProperty("temp_max")]
         public float MaxTemprature { get; set; }
     }
 }

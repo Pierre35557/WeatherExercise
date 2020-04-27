@@ -5,3 +5,5 @@ C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForcast.Domain\o
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForcast.Domain\obj\Debug\netcoreapp3.1\WeatherForcast.Domain.AssemblyInfo.cs
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForcast.Domain\obj\Debug\netcoreapp3.1\WeatherForcast.Domain.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForcast.Domain\obj\Debug\netcoreapp3.1\WeatherForcast.Domain.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForcast.Domain\obj\Debug\netcoreapp3.1\WeatherForcast.Domain.csprojAssemblyReference.cache
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForcast.Domain\obj\Debug\netcoreapp3.1\WeatherForcast.Domain.csproj.CoreCompileInputs.cache

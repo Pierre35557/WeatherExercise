@@ -1,12 +1,18 @@
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.csproj.CoreCompileInputs.cache
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.AssemblyInfoInputs.cache
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.AssemblyInfo.cs
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\nunit.engine.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\External Files\city.list.json
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Test.deps.json
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Test.runtimeconfig.json
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Test.runtimeconfig.dev.json
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Test.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Test.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
@@ -18,8 +24,10 @@ C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bi
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\StoneAge.CleanArchitecture.Domain.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -86,18 +94,12 @@ C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bi
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Data.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Domain.dll
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Domain.pdb
+C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Data.pdb
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.csprojAssemblyReference.cache
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.AssemblyInfoInputs.cache
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.AssemblyInfo.cs
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.csproj.CopyComplete
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.dll
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.pdb
 C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.genruntimeconfig.cache
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForcast.Domain.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForcast.Domain.pdb
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\External Files\city.list.json
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Data.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\WeatherForecast.Data.pdb
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-C:\Git Projects\WeatherExercise\WheatherForecast.Console\WeatherForecast.Test\obj\Debug\netcoreapp3.1\WeatherForecast.Test.csproj.CoreCompileInputs.cache

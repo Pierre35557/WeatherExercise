@@ -1,51 +1,60 @@
-﻿using NUnit.Framework;
+﻿using AutoMapper;
+using NUnit.Framework;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using WeatherForcast.Domain;
-using WeatherForecast.Data;
+using WeatherForecast.Domain;
 
 namespace WeatherForecast.Test
 {
     [TestFixture]
     public class FetchWeatherTestCase
     {
+        public static CurrentWeather nullTemplate = null;
         private readonly string ApiKey = "6e1c13a3fa3a14a2528e366cc78f415f";
 
         [Test]
         public async void Fetch_Weather_For_Today()
         {
-            var _country = new Country();
+            var _country = new Data.Repositories.Country();
             
             //Arrange
-            int cityCode = await _country.Fetch_City_Code("Somerset West", "", "ZA");
-            var client = Create_Http_Client(cityCode);
+            var city = await _country.Fetch_City_Code("Somerset West", "", "ZA");
+            var client = Create_Http_Client(city);
 
             //Act
             var currentWeather = Fetch_Current_Weather(client);
 
             //Assert
-            //How do I test the result?
+            Assert.True(currentWeather != null);
         }
 
-        private HttpClient Create_Http_Client(int cityId)
+        private HttpClient Create_Http_Client(Cities city)
         {
-            return new HttpClient() { BaseAddress = new Uri($"http://api.openweathermap.org/data/2.5/weather?id={cityId}&appid={ApiKey}") };
+            return new HttpClient() { BaseAddress = new Uri($"http://api.openweathermap.org/data/2.5/weather?id={city.CityId}&appid={ApiKey}") };
         }
 
         private CurrentWeather Fetch_Current_Weather(HttpClient client)
         {
+            var mapper = Create_Mapper();
             var result = client.GetAsync(client.BaseAddress).Result;
 
-            //Should I follow the null object pattern?
             if (!result.IsSuccessStatusCode)
-                throw new Exception();
+                return nullTemplate;
 
-            var currentWeather = result.Content.ReadAsAsync<CurrentWeather>().Result;
+            var weather = result.Content.ReadAsAsync<Data.CurrentWeather>().Result;
+            var entity = mapper.Map<CurrentWeather>(weather);
 
-            return currentWeather;
+            return entity;
+        }
+
+        private IMapper Create_Mapper()
+        {
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<Data.CurrentWeather, CurrentWeather>();
+            });
+
+            return config.CreateMapper();
         }
     }
 }
